@@ -287,7 +287,7 @@ def _load_env():
 
 _load_env()
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8994908480:AAGjx9wsiBf8fLlAm4CYERfg586qLlfYSpc")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "9012384648:AAHpf11GJT0IxZxOCF53lGq83y6uNp_wrI0")
 ADMIN_IDS = {int(x) for x in os.getenv("ADMIN_IDS", "7125562257").replace(" ", "").split(",") if x.isdigit()}
 TZ = os.getenv("TZ_NAME", "Asia/Dhaka")
 
